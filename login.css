@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=IBM+Plex+Mono&family=JetBrains+Mono&family=Share+Tech+Mono&family=Source+Code+Pro&family=Space+Mono&family=VT323&display=swap');
+body {
+    padding: 0;
+    min-height: 100vh;
+    background-color: #8da9c4;
+
+}
+
+h2{
+    margin: 5px;
+    font-family: 'Fira Code', monospace;
+    margin-top: 0;
+    color: white;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: left;
+    
+}
+.status{
+    border: dotted;
+    width: 350px;
+    text-align: left;
+    font-family: "VT323", monospace;
+    font-size: 15px;
+    background-color: rgba(48, 114, 145, 0.461);
+
+}
+
+.banner{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+   
+}
+
+.whole-container{
+    width: 600px;
+    height: 550px;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 15px 10px 40px rgba(48, 114, 145, 0.461), -15px 10px 40px rgba(48, 114, 145, 0.461);
+    border-radius: 19px;
+    margin-left: auto;
+    
+
+}
+
+.form-username, .form-password, .forgot-password, .form_email{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.form-username label, .form-password label, .form_email label{
+    display: block;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #023e8a;
+}
+.form-username input, .form-password input, .form_email input{
+   width: 350px;
+   height: 35px;
+   border-radius: 14px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12),  ;
+   border: grey solid;
+}
+
+
+.login-form{
+    gap: 1px;
+}
+
+button{
+   width: 350px;
+   height: 30px;
+   border-radius: transparent 10px;
+
+}
